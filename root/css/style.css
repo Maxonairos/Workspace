@@ -1,0 +1,70 @@
+body {
+    background-color: #b3b3b3;
+}
+h1{
+    color: #03034b;
+    padding: 10px;
+}
+h2{
+    color: navy;
+    padding: 10px;
+    text-align: center;
+    font-size: 2rem;
+}
+.perfil{
+    width: 200px;
+    border-radius: 50%;
+    background-color: black;
+}
+.salchi{
+    width: 300px;
+    border-radius: 20%;
+    margin: 20px;
+}
+.caracter{
+    color: #2440ddd3;
+    text-decoration: underline;
+
+}
+.caracter2{ 
+    font-size: 40px;
+    font-family: roboto;
+}
+.form{
+    width: 300px;
+    background-color: blanchedalmond;
+    border-radius: 10%;
+}
+ul{
+    list-style: none;
+}
+.textoLargo{
+    line-height: 1.5rem;
+}
+a{
+    text-decoration: none;
+}
+p{
+    background-image: url("../images/header.jpg");
+    background-repeat: no-repeat;
+    background-position: space;
+}
+*{
+    padding: 0;
+    margin: 0, 10 , 5 , 0;
+}
+.list1{
+    list-style-type: circle;
+    margin: 10px;
+    padding: 10px;
+}
+.list2{
+    list-style-type: upper-latin;
+    margin: 10px;
+    padding: 10px;
+}
+.tabla{
+    padding: 10px;
+    border: black 2px solid;
+    
+}

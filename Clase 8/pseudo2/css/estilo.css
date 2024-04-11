@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+}
+a{
+    color:chartreuse;
+    
+}
+a:hover{
+    color:red;
+}
+a:active{
+    background-color: yellow;
+}
+a:visited{
+    color:aqua;
+}
+nav a:nth-child(3){
+    font-weight: bold;
+}

@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.socialIcon{
+    width: 36px;
+    height: 36px;
+    padding: 10px;
+    margin: 10px;
+    align-items: center;
+}
+.socialBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 360px;
+    height: 36px;
+    padding: 10px;
+    margin: 10px;
+    align-items: center;
+}
+.svg{
+    display: flex;
+    width: 36px;
+    height: 36px;
+    padding: 10px;
+    
+}
+.up{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;        
+}
+.upBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.lista1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px;
+    background-color: #8d8d8d;
+}
+.copyleft{
+    display: flex;
+    align-items: flex-end;  
+}
+.listBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #8d8d8d;
+}    
+.title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    padding: 5px;
+    background-color: #8d8d8d;
+    
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #8d8d8d
+}
+.navSelec{
+    display: flex;
+    background-color:#6d6c6c;
+    padding: 10px;
+    margin: 5px;
+}   
+.parrafo{
+    display: flex;
+    text-align: start;
+    width: 100%;
+}
+a{
+    color: #eeeeee;
+}
+.pFooter{
+    color: #eeeeee;
+}
+
+.titleBox{
+    display: flex;
+    flex-direction: row;
+    background-color:#6d6c6c;
+    justify-content: center;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="../multimedia/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Formulario</h1>
+    </header>
+    <main>
+        <form action="">
+            <div>
+                <label for="name">Nombre</label>
+                <input type="text" name="name">
+            </div>
+            <br>
+            <div>
+                <label for="surname">Apellido</label>
+                <input type="text" name="surname">
+            </div>
+            <br>
+            <div>
+                <label for="mail">Escribe tu email</label>
+                <input type="email" name="email" required>
+            </div>
+            <br>
+            <div>
+                <label for="pass">Password</label>
+                <input type="password" name="pass" required>
+            </div>
+            <br>
+            <div>
+                <label for="pais">Elije tu pais de nacimiento</label>
+                <select name="pais" id="">
+                    <option value="arg" name="pais">Argentina</option>
+                    <option value="uy" name="pais">Uruguay</option>
+                    <option value="ch"name="pais">Chile</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="sexo">Género</label>
+                <input type="radio" name="sexo" id="" value="muj">Femenino
+                <input type="radio" name="sexo" id="" value="hom">Masculino
+                <input type="radio" name="sexo" id="" value="nob">No Binario
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="Enviar Datos">
+                <input type="reset" value="Borrar Datos">
+            </div>
+            <h2>Ejercicio Formulario</h2>
+
+        <form  action="">
+            <fieldset class="form">
+                <legend class="caracter">Información Personal</legend>
+                <div>
+                    <label for="sex">Sexo:</label>
+                    <br>
+                    <input type="radio" name="sex" value="male">Hombre:
+                    <input type="radio" name="sex" value="fem">Mujer:
+                </div>
+                <br>
+                <div>
+                    <label for="name">Nombre:</label>
+                    <br>
+                    <input type="text" name="name" placeholder="Nombre">
+                </div>
+                <br>
+                <div>
+                    <label for="surname">Apellido:</label>
+                    <br>
+                    <input type="text" name="surname" placeholder="Apellido">
+                </div>
+                <br>
+                <div>
+                    <label for="size">Talle:</label>
+                    <select name="size" id="">
+                        <option value="l" name="size" >Large</option>
+                        <option value="m" name="size">Medium</option>
+                        <option value="s" name="size"selected="true">Small</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <input type="submit" value="Enviar">
+                </div>
+
+            </fieldset>
+        </form>
+
+
+        
+            
+        </form>
+    </main>
+</body>
+</html>

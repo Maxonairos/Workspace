@@ -1,0 +1,9 @@
+h1, h2, h3, h4, h5{
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 2rem;
+    font-style: normal;
+}
+.tamanoTabla{
+    width: 400px;
+}

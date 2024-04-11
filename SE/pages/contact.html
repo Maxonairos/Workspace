@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="/PE/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primera Entrega</title>
+</head>
+<body>
+    <header id="header">
+        <div>
+            <h1><a class="title" href="../index.html">Nombre de Sitio</a></h1>
+        </div>
+    </header>
+    <nav>
+        <ol class="lista1">
+            <li class="navSelec h"><a class="navSelec" href="../pages/topMov.html">Top Películas</a></li>
+            <li class="navSelec h"><a class="navSelec" href="../pages/topSeries.html">Top Series</a></li>
+            <li class="navSelec h"><a class="navSelec" href="../pages/awards.html">Premios</a></li>
+            <li class="navSelec h"><a class="navSelec" href="../pages/contact.html">Contacto</a></li>
+        </ol>
+    </nav>
+    <main>
+        <section class="seccion1">
+            <div class="form">
+                <form action="">
+                    <fieldset>
+                        <legend class="inputs">Datos de Contacto</legend>
+                        <div class="inputs">
+                            <label for="name">Nombre:</label>
+                            <input class="field" type="text" name="name" placeholder="Nombre Completo"required>
+                        </div>
+                        <div class="inputs">
+                            <label for="surname">Apellido:</label>
+                            <input class="field" type="text" name="surname" placeholder="Apellido" required>
+                        </div>
+                        <div class="inputs">
+                            <label for="email">Correo Electrónico:</label>
+                            <input class="field" type="email" name="email" placeholder="example@mail.com" required>
+                        </div>
+                        <div class="inputs">
+                            <label for="gender">Género</label>
+                            <select  class="field" name="gender">
+                                <option value="male" name="gender">Masculino</option>
+                                <option value="female" name="gender">Femenino</option>
+                                <option value="other" name="gender" selected>No quiero especificar</option>
+                            </select>
+                        </div>
+                        <div class="inputs">
+                            <label for="rating">Que te pareció la Página?</label>
+                                <input type="radio" name="rating" value="1">Mala
+                                <input type="radio" name="rating" value="2">Normal
+                                <input type="radio" name="rating" value="3" checked>Muy buena!!!
+                        </div>
+                        <div class="inputs">
+                            <label for="reference">Podés dejar tu observación</label>
+                        </div>
+                        <div class="inputs">
+                            <textarea name="reference" cols="80" rows="10" placeholder="Ingresa tu comentario aquí"></textarea>
+                        </div>
+                        <div class="inputs">
+                            <input class="button h h3" type="submit" value="Enviar Datos">
+                            <input class="button h h3" type="reset" value="Borrar datos">
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </section>            
+        <div class="upBox "><a href="#header"><img class="svg h2" src="../svg/arrow-up-circle-outline.svg" alt="ir arriba"></a></div>
+    </main>
+    <footer class="footer">
+        <div class="copyleft">
+            <h3>Copyright - Desarrollado por FSoriano</p>
+        </div>
+        <div class="socialBox">
+            <ul>
+                <li class="h3"><a href="http://www.whatsapp.com/" target="_blank"><img src="../svg/whatsapp.svg" alt="whatsapp"></a></li>
+                <li class="h3"><a href="http://web.facebook.com/" target="_blank"><img src="../svg/facebook.svg" alt="facebook"></a></li>
+                <li class="h3"><a href="http://www.instagram.com/" target="_blank"><img src="../svg/instagram.svg" alt="instagram"></a></li>
+                <li class="h3"><a href="https://github.com/" target="_blank"><img src="../svg/github.svg" alt="github"></a></li>
+                <li class="h3"><a href="https://ar.linkedin.com/" target="_blank"><img src="../svg/linkedin.svg" alt="linkedin"></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

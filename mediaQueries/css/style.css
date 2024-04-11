@@ -1,0 +1,24 @@
+body{
+    width: 100vh;
+    height: 100vh;
+    background-color: blueviolet;
+    background-image: url(../images/background3.jpg)
+}
+h1{
+    color: whitesmoke;
+}
+
+@media screen and (min-width: 480px){
+    body{
+        background-color: black;
+        background-image: url(../images/award.jpg)
+        
+
+    }
+}
+@media only screen and (min-width: 768px){
+    body{
+        background-color: cyan;
+
+    }
+}
